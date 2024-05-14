@@ -230,6 +230,10 @@ public class JobData {
         return allCoreCompetency;
     }
 
+
+    public static Object findAllUniqueValues(String all) {
+        return allJobs;
+    }
 }
 
 

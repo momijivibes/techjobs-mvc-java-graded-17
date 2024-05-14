@@ -40,7 +40,7 @@ public class ListController {
         model.addAttribute("tableChoices", tableChoices);
         model.addAttribute("employers", JobData.getAllEmployers());
         model.addAttribute("locations", JobData.getAllLocations());
-        model.addAttribute("positions", JobData.getAllPositionTypes());
+        model.addAttribute("positions", "JobData.getAllPositionTypes()");
         model.addAttribute("skills", JobData.getAllCoreCompetency());
 
         return "list";
