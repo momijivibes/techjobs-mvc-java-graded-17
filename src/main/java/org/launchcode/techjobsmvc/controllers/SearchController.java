@@ -19,7 +19,7 @@ import static org.launchcode.techjobsmvc.controllers.ListController.columnChoice
  * Created by LaunchCode
  */
 @Controller
-@RequestMapping("/search/")
+@RequestMapping("/search")
 public class    SearchController {
 
     @GetMapping(value = "")
